@@ -13,7 +13,7 @@ interface Route {
 const Lazy1 = lazy(() => import(/* webpackChunkName: 'Enrique' */ '../01-lazyload/pages/LazyPage1'));
 const Lazy2 = lazy(() => import(/* webpackChunkName: 'Julieta' */ '../01-lazyload/pages/LazyPage2'));
 const Lazy3 = lazy(() => import(/* webpackChunkName: 'Pablo' */ '../01-lazyload/pages/LazyPage3'));
-// LOS MAGIC COMMENTS DE WEBPACK NO FUNCIONAN EN VITE/ESBUILD,
+// LOS MAGIC COMMENTS DE WEBPACK NO FUNCIONAN EN VITE, QUE USA ESBUILD, NO WEBPACK,
 // DE HECHO NO SON NECESARIOS PARA IDENTIFICAR LOS LAZY CHUNKS
 
 export const routes: Route[] = [
