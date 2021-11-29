@@ -13,4 +13,7 @@ ReactDOM.render(
 /**
  * dOCS REACT-ROUTER-DOM. VER:
  * https://reactrouter.com/docs/en/v6
+ *
+ * INCLUIR SPINNERS. VER:
+ * https://loading.io/css
  */
