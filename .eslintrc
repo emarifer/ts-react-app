@@ -24,7 +24,8 @@
 	"rules": {
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
-		"capitalized-comments": ["error", "never"],
+		"capitalized-comments": ["error", "always", { "ignorePattern": "." }],
+		"no-warning-comments": [0, { "terms": ["TODO"], "location": "start" }],
 		"object-curly-spacing": [2, "always"],
 		"no-unused-expressions": [2, { "allowTernary": true }],
 		"arrow-parens": [2, "always"],

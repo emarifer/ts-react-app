@@ -13,4 +13,7 @@ ReactDOM.render(
 /**
  * dOCS REACT-ROUTER-DOM. VER:
  * https://reactrouter.com/docs/en/v6
+ *
+ * TYPESCRIPT-PLUGIN-CSS-MODULES. VER:
+ * https://www.npmjs.com/package/typescript-plugin-css-modules
  */
