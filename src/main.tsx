@@ -16,4 +16,10 @@ ReactDOM.render(
  *
  * TYPESCRIPT-PLUGIN-CSS-MODULES. VER:
  * https://www.npmjs.com/package/typescript-plugin-css-modules
+ *
+ * TIPO «NEVER» (NUNCA). VER:
+ * https://apuntes.de/typescript/never/#gsc.tab=0
+ *
+ * CAN WE HAVE A RETURN STATEMENT IN A JAVASCRIPT SWITCH STATEMENT?. VER:
+ * https://www.tutorialspoint.com/can-we-have-a-return-statement-in-a-javascript-switch-statement#:~:text=The%20JavaScript%20switch%20statement%20can,statement%20will%20not%20be%20executed.
  */
