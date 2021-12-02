@@ -22,7 +22,11 @@ export interface ProductCardHOCProps {
 	Buttons: (Props: ProductButtonsProps) => JSX.Element;
 }
 
-// interface ProductButtonsProps {
-// 	counterProp: number;
-// 	increaseByProp: (value: number) => void;
-// }
+export interface OnChangeArgs {
+	product: Product;
+	count: number;
+}
+
+export interface ProductInCart extends Product {
+	count: number;
+}

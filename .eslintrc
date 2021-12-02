@@ -27,12 +27,15 @@
 		"capitalized-comments": ["error", "always", { "ignorePattern": "." }],
 		"no-warning-comments": [0, { "terms": ["TODO"], "location": "start" }],
 		"object-curly-spacing": [2, "always"],
-		"no-unused-expressions": [2, { "allowTernary": true }],
+		"no-unused-expressions": [
+			2,
+			{ "allowTernary": true, "allowShortCircuit": true }
+		],
 		"arrow-parens": [2, "always"],
 		// "arrow-body-style": ["error", "as-needed"], // Puede no ser necesaria esta regla
 		"curly": ["error", "multi-line"],
 		"no-unused-vars": ["error", { "args": "none" }],
-		// "@typescript-eslint/no-unused-vars": "off",
+		// "@typescript-eslint/no-non-null-assertion": "off",
 		"react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }]
 	},
 	"settings": {

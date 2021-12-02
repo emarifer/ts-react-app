@@ -21,3 +21,13 @@
 	color: white;
 	border-color: white;
 }
+
+.shopping-cart {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	background-color: #323e5c;
+	border-radius: 5px;
+	width: 110px;
+	padding: 8px;
+}
