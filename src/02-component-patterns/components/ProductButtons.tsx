@@ -22,6 +22,9 @@ export const ProductButtons = ({ className, style }: Props) => {
 		[counter, maxCount],
 	);
 
+	// También funciona sin el useCallback
+	// const isMaxReaced = () => Boolean(maxCount) && maxCount === counter;
+
 	return (
 		<div className={`${styles.buttonsContainer} ${className}`} style={style}>
 			<button className={styles.buttonMinus} onClick={() => increaseBy(-1)}>
