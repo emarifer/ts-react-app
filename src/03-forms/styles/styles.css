@@ -31,10 +31,14 @@ label {
 }
 
 .checkbox-label {
+	display: flex;
 	flex-direction: row;
-	margin: 0;
-	gap: 10px;
+	column-gap: 10px;
 	align-items: center;
+}
+
+.checkbox-label label {
+	margin: 0;
 }
 
 p {

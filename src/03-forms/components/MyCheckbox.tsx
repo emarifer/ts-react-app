@@ -12,12 +12,14 @@ export const MyCheckbox = ({ label, ...props }: Props) => {
 
 	return (
 		<>
-			<label
+			<div
 				className={typeof props.className === 'string' ? props.className : ''}
 			>
-				{label}
+				<label htmlFor={typeof props.id === 'string' ? props.id : props.name}>
+					{label}
+				</label>
 				<input type="checkbox" {...field} {...props} />
-			</label>
+			</div>
 
 			<ErrorMessage name={props.name} component="span" />
 		</>
