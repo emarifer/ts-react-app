@@ -15,7 +15,7 @@ import {
 import Logo from '../logo.svg';
 
 export const Navigation = () => (
-	<BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
+	<BrowserRouter basename="/ts-react-app">
 		<div className="main-layout">
 			<nav>
 				<img src={Logo} alt="React Logo" />
