@@ -16,7 +16,7 @@ import {
 import Logo from '../logo.svg';
 
 export const Navigation = () => (
-	<HashRouter basename="/ts-react-app">
+	<HashRouter>
 		<div className="main-layout">
 			<nav>
 				<img src={Logo} alt="React Logo" />
