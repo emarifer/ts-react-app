@@ -1,5 +1,6 @@
 import {
-	BrowserRouter,
+	// BrowserRouter,
+	HashRouter,
 	Routes,
 	Route,
 	NavLink,
@@ -15,7 +16,7 @@ import {
 import Logo from '../logo.svg';
 
 export const Navigation = () => (
-	<BrowserRouter basename="/ts-react-app">
+	<HashRouter basename="/ts-react-app">
 		<div className="main-layout">
 			<nav>
 				<img src={Logo} alt="React Logo" />
@@ -72,5 +73,5 @@ export const Navigation = () => (
 				<Route path="/*" element={<Navigate to="register" replace />} />
 			</Routes>
 		</div>
-	</BrowserRouter>
+	</HashRouter>
 );
