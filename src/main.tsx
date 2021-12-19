@@ -37,4 +37,10 @@ ReactDOM.render(
  *
  * HOOKS DE REACT Y TYPESCRIPT. VER:
  * https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks
+ *
+ * Deploying Vite.js React build to gh-pages. VER:
+ * https://stackoverflow.com/questions/70395443/deploying-vite-js-react-build-to-gh-pages
+ *
+ * How to Deploy a Routed React App to GitHub Pages. VER:
+ * https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
  */
